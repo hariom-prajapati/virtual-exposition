@@ -1,0 +1,41 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+#googlemap { 
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.book-button{
+	margin-bottom: 20px;
+}
+
+path, rect, g text{
+	cursor: pointer;
+}
+
+body{
+	background-color: #d3e0f1;
+}
+
+.navbar-default {
+    background-color: #d3e0f1;
+    border-color: #fff;
+}
+
+red{
+	color: red;
+}
+
+.stand-name strong{
+    text-transform: capitalize;
+}
