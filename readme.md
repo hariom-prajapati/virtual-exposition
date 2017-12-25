@@ -2,7 +2,7 @@
 Virtual exposition application allows companies to book their place in virtual expositions in different exposition events.
 
 ## Installation
-Just need to execute following commands
+Just need to execute following commands inside the project
 ```
 composer update
 npm install
