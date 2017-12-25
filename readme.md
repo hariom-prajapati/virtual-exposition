@@ -3,13 +3,17 @@ Virtual exposition application allows companies to book their place in virtual e
 
 ## Installation
 Just need to execute following commands
-- composer update
-- npm install
+```
+composer update
+npm install
+```
 
 ## Seed/Fake Data
 After install and setting up environment using .env file you need to run migrations and seeds
-- php artisan migrate
-- php artisan db:seed
+```
+php artisan migrate
+php artisan db:seed
+```
 
 ## Technologies
 Following technologies have been used.
