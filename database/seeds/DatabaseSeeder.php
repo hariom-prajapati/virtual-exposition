@@ -43,24 +43,6 @@ class DatabaseSeeder extends Seeder
 								USA'
         ]);
 
-        // seed for booking companies
-        DB::table('booking_companies')->insert([
-            'name' 			=> 'IBM',
-            'logo' 			=> 'Kg7SEAUpJ43wG6TDxJE0nPt5M0Ei7AhyxWeuEzfO.png',
-            'contact_person'=> 'IBM Admin',
-            'email' 		=> 'ibmadmin@yopmail.com',
-            'phone' 		=> '9020001233',
-            'marketing_doc'	=> 'docs/e4MDU11yNkUNTMDT7MSaXLlutABZGF7H6g3aAYL4.pdf'
-        ]);
-        DB::table('booking_companies')->insert([
-            'name' 			=> 'Tech Mahindra',
-            'logo' 			=> 'mLNb8XtMPwSzq5YLoQmem05czvhgoJYbdZR7Yrl4.png',
-            'contact_person'=> 'Ram S',
-            'email' 		=> 'ram@techm.com',
-            'phone' 		=> '0293233333',
-            'marketing_doc'	=> 'docs/98uO5vp9ArccTZgp9hM30pD15o1MhJGsv5qSL8Kh.pdf'
-        ]);
-
 
     	// Seed for stands
     	$faker = Faker::create();

@@ -11,7 +11,19 @@ npm install
 ## Seed/Fake Data
 After install and setting up environment using .env file you need to run migrations and seeds
 ```
+php artisan key:generate
 php artisan migrate
+```
+
+Create storate/public folder in public directory. You can use following commands:
+```
+mkdir public/storage
+mkdir public/storage/images
+sudo chmod -R 777 public/storage  // for linux users
+```
+
+Finally execute below command
+```
 php artisan db:seed
 ```
 
